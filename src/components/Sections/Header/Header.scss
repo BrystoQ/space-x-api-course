@@ -1,0 +1,28 @@
+.header {
+  height: 5vh;
+  padding: 1rem;
+  background: #0e1217;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  .logo {
+    cursor: pointer;
+  }
+  .link-list {
+    justify-content: end;
+    display: flex;
+    gap: 10px;
+    .item {
+      cursor: pointer;
+      border-radius: 15px;
+      padding: 0.5rem;
+      color: white;
+      &:hover {
+        background-color: red;
+      }
+      &:active {
+        filter: contrast(200%);
+      }
+    }
+  }
+}
